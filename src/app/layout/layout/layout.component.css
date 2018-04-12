@@ -1,0 +1,25 @@
+.logo {
+    float: left;
+    width: 120px;
+    height: 30px;
+    margin: 23px 28px 16px 0;
+    background: #333;
+}
+.header-separate {
+    float: left;
+    width: 120px;
+    height: 30px;
+    margin: 23px 0px 16px 12px;
+    border-right: 1px solid #e9e9e9;
+}
+.header-search {
+    margin-top: 4px;
+}
+/* 样式覆写 */
+.ant-layout-header {
+    background: #ffffff;
+    padding: 0 50px;
+    margin-bottom: 25px;
+    height: 80px;
+    line-height: 64px;
+};

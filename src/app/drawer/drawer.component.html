@@ -1,0 +1,4 @@
+<nz-select style="width: 200px;" [(ngModel)]="selectedOption" [nzPlaceHolder]="'搜索组件...'">
+  <nz-option *ngFor="let option of options" [nzLabel]="option.label" [nzValue]="option" [nzDisabled]="option.disabled">
+  </nz-option>
+</nz-select>
